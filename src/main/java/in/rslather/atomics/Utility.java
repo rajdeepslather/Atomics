@@ -30,7 +30,7 @@ public class Utility {
 	}
 
 	@SuppressWarnings("unchecked")
-	public static <T> T[] buildAsAraay(final Class<T> clazz, final int capacity) {
+	public static <T> T[] buildAsArray(final Class<T> clazz, final int capacity) {
 		return (T[]) Array.newInstance(clazz, capacity);
 	}
 
