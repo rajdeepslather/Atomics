@@ -24,5 +24,4 @@ public class AtomicCounter {
 	public Integer getAndIncrement(int step) {
 		return counter.getAndUpdate(() -> counter.get() + step);
 	}
-
 }
